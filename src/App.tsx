@@ -444,16 +444,14 @@ function App() {
         {/* Image Gallery */}
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
           <h2 className="text-2xl lg:text-3xl font-bold text-[#0F172A] mb-8 text-center">Our Clinic Gallery</h2>
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4">
             {[
-              '/gallery_waiting.jpg',
-              '/gallery_exam.jpg',
-              '/gallery_patient.jpg',
-              '/clinic_exterior.jpg',
-              '/service_consultation.jpg',
-              '/service_laser.jpg',
-              '/service_surgery.jpg',
-              '/service_frames.jpg'
+              '/layout1.png',
+              '/layout2.png',
+              '/layout3.png',
+              '/layout4.png',
+              '/layout5.png',
+              '/layout6.png',
             ].map((img, index) => (
               <div key={index} className="gallery-item relative aspect-[4/3] rounded-xl overflow-hidden group">
                 <img 
@@ -496,7 +494,7 @@ function App() {
           <div className="mt-12 lg:mt-16 grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="relative aspect-video rounded-2xl overflow-hidden">
               <img 
-                src="/service_laser.jpg" 
+                src="/layout3.png" 
                 alt="Laser Treatment"
                 className="w-full h-full object-cover"
               />
@@ -507,11 +505,11 @@ function App() {
                 </div>
               </div>
             </div>
-            <div className="relative aspect-video rounded-2xl overflow-hidden">
-              <img 
-                src="/service_surgery.jpg" 
+            <div className="relative aspect-video rounded-2xl overflow-hidden bg-gray-100 flex items-center justify-center">
+              <img
+                src="/expert surgical care.png"
                 alt="Surgical Procedures"
-                className="w-full h-full object-cover"
+                className="w-full h-full object-contain"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-6">
                 <div>
@@ -539,7 +537,7 @@ function App() {
             <div className="grid lg:grid-cols-2">
               <div className="relative aspect-[4/5] lg:aspect-auto">
                 <img 
-                  src="/prof_oluleye.jpg" 
+                  src="/doc oluleye.jpg" 
                   alt="Prof. Tunji Sunday Oluleye"
                   className="w-full h-full object-cover"
                 />
@@ -614,7 +612,7 @@ function App() {
               </div>
               <div className="relative aspect-[4/5] lg:aspect-auto order-1 lg:order-2">
                 <img 
-                  src="/dr_oluleye.jpg" 
+                  src="/mrs oluleye.jpg" 
                   alt="Dr. Kehinde Oluleye"
                   className="w-full h-full object-cover"
                 />
@@ -704,11 +702,11 @@ function App() {
             </div>
 
             {/* Map Image */}
-            <div className="relative rounded-2xl overflow-hidden shadow-lg">
-              <img 
-                src="/clinic_exterior.jpg" 
+            <div className="relative rounded-2xl overflow-hidden shadow-lg bg-gray-100 flex items-center justify-center">
+              <img
+                src="/location.png"
                 alt="Hope Eye Clinic Location"
-                className="w-full h-full object-cover"
+                className="w-full h-full object-contain"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-6">
                 <div>
