@@ -29,7 +29,7 @@ const patientEducationData = [
   {
     id: 'cataract',
     title: 'Cataract',
-    image: '/condition_cataract.jpg',
+    image: '/cataract.png',
     whatIsIt: 'Clouding of the eye\'s natural lens, leading to blurred vision.',
     symptoms: [
       'Blurry or cloudy vision',
@@ -49,7 +49,7 @@ const patientEducationData = [
   {
     id: 'glaucoma',
     title: 'Glaucoma',
-    image: '/condition_glaucoma.jpg',
+    image: '/glaucoma.png',
     whatIsIt: 'Damage to the optic nerve, often linked to high eye pressure. Vision lost cannot be regained.',
     symptoms: [
       'Gradual loss of side vision',
@@ -69,7 +69,7 @@ const patientEducationData = [
   {
     id: 'diabetic-retinopathy',
     title: 'Diabetic Retinopathy',
-    image: '/condition_diabetic.jpg',
+    image: '/diabetic.png',
     whatIsIt: 'Damage to the retina\'s blood vessels due to diabetes.',
     symptoms: [
       'Blurred vision',
@@ -89,7 +89,7 @@ const patientEducationData = [
   {
     id: 'sickle-retinopathy',
     title: 'Sickle Retinopathy',
-    image: '/condition_sickle.jpg',
+    image: '/sickle.png',
     whatIsIt: 'Retinal damage caused by sickle cell disease affecting blood flow.',
     symptoms: [
       'Blurred vision',
@@ -108,7 +108,7 @@ const patientEducationData = [
   {
     id: 'allergic-conjunctivitis',
     title: 'Allergic Conjunctivitis',
-    image: '/condition_conjunctivitis.jpg',
+    image: '/conjuctivitis.png',
     whatIsIt: 'Eye allergy causing redness, itching, and watering.',
     symptoms: [
       'Red, itchy eyes',
@@ -128,7 +128,7 @@ const patientEducationData = [
   {
     id: 'retinal-detachment',
     title: 'Retinal Detachment',
-    image: '/condition_detachment.jpg',
+    image: '/detachment.png',
     whatIsIt: 'The retina pulls away from its normal position, leading to vision loss.',
     symptoms: [
       'Sudden flashes of light',
@@ -146,7 +146,7 @@ const patientEducationData = [
   {
     id: 'retinal-vascular-occlusion',
     title: 'Retinal Vascular Occlusion',
-    image: '/condition_occlusion.jpg',
+    image: '/occlusion.png',
     whatIsIt: 'Blockage of blood vessels in the retina.',
     symptoms: [
       'Sudden vision loss in one eye',
@@ -421,7 +421,7 @@ function App() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a 
-                  href="https://wa.me/2348169924588"
+                  href="https://wa.me/2348053083249"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-[#25D366] text-white px-8 py-4 rounded-full font-semibold hover:bg-[#128C7E] transition-colors flex items-center justify-center gap-2"
@@ -661,9 +661,8 @@ function App() {
                   <div>
                     <h3 className="font-bold text-[#0F172A] text-lg mb-1">Phone / WhatsApp</h3>
                     <div className="space-y-1">
-                      <a href="tel:08169924588" className="block text-[#475569] hover:text-[#0EA5E9]">0816 992 4588</a>
                       <a href="tel:08053083249" className="block text-[#475569] hover:text-[#0EA5E9]">0805 308 3249</a>
-                      <a href="tel:08023265594" className="block text-[#475569] hover:text-[#0EA5E9]">0802 326 5594</a>
+                      <a href="tel:08130553875" className="block text-[#475569] hover:text-[#0EA5E9]">0813 055 3875</a>
                     </div>
                   </div>
                 </div>
@@ -678,8 +677,9 @@ function App() {
                   <div>
                     <h3 className="font-bold text-[#0F172A] text-lg mb-1">Opening Hours</h3>
                     <p className="text-[#475569]">
-                      <strong>Consultations:</strong> Tuesdays and Saturdays only<br />
-                      <strong>Time:</strong> 8:00 AM - 3:00 PM
+                      <strong>Days:</strong> Monday to Saturday: 9am to 3pm<br />
+                      <strong>Consultation Days:</strong>< br /> Tuesdays: 12pm to 3pm<br /> and Saturdays: 10am to 3pm<br />
+                      <strong>PLEASE NOTE!</strong> no clinics open on public holidays and Sundays
                     </p>
                   </div>
                 </div>
@@ -740,7 +740,7 @@ function App() {
                   <img 
                     src={condition.image} 
                     alt={condition.title}
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-contain"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
                   <h3 className="absolute bottom-4 left-4 text-white font-bold text-xl">{condition.title}</h3>
@@ -866,7 +866,7 @@ function App() {
               <ul className="space-y-2 text-gray-400 text-sm">
                 <li>7, Akobo Housing Estate</li>
                 <li>General Gas, Akobo, Ibadan</li>
-                <li><a href="tel:08169924588" className="hover:text-[#0EA5E9]">0816 992 4588</a></li>
+                <li><a href="tel:08053083249" className="hover:text-[#0EA5E9]">0805 308 3249</a></li>
                 <li><a href="mailto:hopeeyeclinic@gmail.com" className="hover:text-[#0EA5E9]">hopeeyeclinic@gmail.com</a></li>
               </ul>
             </div>
