@@ -190,7 +190,7 @@ const servicesData = [
   {
     icon: ScanEye,
     title: 'Retinal Surgeries',
-    description: 'Scleral buckle, vitrectomy for retinal detachment'
+    description: 'Scleral buckle, Vitrectomy for retinal detachment'
   },
   {
     icon: ScanEye,
@@ -205,7 +205,7 @@ const servicesData = [
   {
     icon: ScanEye,
     title: 'Lid Surgeries',
-    description: 'Entropion, chalazion, cysts treatment'
+    description: 'Entropion, Chalazion, Cysts treatment'
   },
   {
     icon: ScanEye,
@@ -331,7 +331,7 @@ function App() {
               <Eye className="w-6 h-6 lg:w-8 lg:h-8 text-[#0EA5E9]" />
               <div className="flex flex-col">
                 <span className="font-bold text-[#0F172A] text-sm lg:text-base leading-tight">HOPE SPECIALIST</span>
-                <span className="text-[#0EA5E9] text-xs lg:text-sm leading-tight">CLINIC & RETINAL CENTER</span>
+                <span className="text-[#0EA5E9] text-xs lg:text-sm leading-tight">EYE CLINIC & RETINAL CENTER</span>
               </div>
             </div>
 
@@ -413,7 +413,7 @@ function App() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center max-w-4xl mx-auto">
               <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold mb-6 leading-tight">
-                HOPE SPECIALIST CLINIC<br />
+                HOPE SPECIALIST EYE CLINIC<br />
                 <span className="text-[#0EA5E9]">AND RETINAL CENTER</span>
               </h1>
               <p className="text-lg lg:text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
@@ -430,7 +430,9 @@ function App() {
                   Contact via WhatsApp
                 </a>
                 <a 
-                  href="mailto:hopeeyeclinic@gmail.com"
+                  href="mailto: kehinde.oluleye@gmail.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="bg-white text-[#0F172A] px-8 py-4 rounded-full font-semibold hover:bg-gray-100 transition-colors flex items-center justify-center gap-2"
                 >
                   <Send className="w-5 h-5" />
@@ -679,7 +681,7 @@ function App() {
                     <p className="text-[#475569]">
                       <strong>Days:</strong> Monday to Saturday: 9am to 3pm<br />
                       <strong>Consultation Days:</strong>< br /> Tuesdays: 12pm to 3pm<br /> and Saturdays: 10am to 3pm<br />
-                      <strong>PLEASE NOTE!</strong> no clinics open on public holidays and Sundays
+                      <strong>PLEASE NOTE!</strong> No Consultation on public holidays
                     </p>
                   </div>
                 </div>
@@ -693,8 +695,8 @@ function App() {
                   </div>
                   <div>
                     <h3 className="font-bold text-[#0F172A] text-lg mb-1">Email</h3>
-                    <a href="mailto:hopeeyeclinic@gmail.com" className="text-[#475569] hover:text-[#0EA5E9]">
-                      hopeeyeclinic@gmail.com
+                    <a href="mailto:kehinde.oluleye@gmail.com" className="text-[#475569] hover:text-[#0EA5E9]">
+                      kehinde.oluleye@gmail.com
                     </a>
                   </div>
                 </div>
@@ -704,13 +706,13 @@ function App() {
             {/* Map Image */}
             <div className="relative rounded-2xl overflow-hidden shadow-lg bg-gray-100 flex items-center justify-center">
               <img
-                src="/location.png"
+                src="/location2.png"
                 alt="Hope Eye Clinic Location"
                 className="w-full h-full object-contain"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-6">
                 <div>
-                  <h4 className="text-white font-bold text-lg">Hope Eye Clinic</h4>
+                  <h4 className="text-white font-bold text-lg">Hope Specialist Eye Clinic</h4>
                   <p className="text-white/80">7, Akobo Housing Estate, General Gas, Akobo, Ibadan</p>
                 </div>
               </div>
@@ -815,7 +817,7 @@ function App() {
           {/* Call to Action */}
           <div className="mt-12 lg:mt-16 text-center bg-gradient-to-r from-[#0EA5E9] to-[#0284C7] rounded-2xl p-8 lg:p-12">
             <h3 className="text-2xl lg:text-3xl font-bold text-white mb-4">
-              Visit Hope Eye Clinic, Ibadan
+              Visit Hope Specialist Eye Clinic and Retina Center, Ibadan
             </h3>
             <p className="text-white/90 max-w-2xl mx-auto mb-6">
               For regular check-ups and early treatment to protect your sight. Our team of experts is ready to help you maintain healthy vision.
