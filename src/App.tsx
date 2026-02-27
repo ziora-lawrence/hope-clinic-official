@@ -414,7 +414,7 @@ function App() {
             <div className="text-center max-w-4xl mx-auto">
               <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold mb-6 leading-tight">
                 HOPE SPECIALIST EYE CLINIC<br />
-                <span className="text-[#0EA5E9]">AND RETINAL CENTER</span>
+                <span className="text-[#0EA5E9]">AND RETINA CENTER</span>
               </h1>
               <p className="text-lg lg:text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
                 A homely environment for eye care where consultations are done in a relaxed atmosphere
@@ -843,7 +843,7 @@ function App() {
                 <Eye className="w-8 h-8 text-[#0EA5E9]" />
                 <div>
                   <span className="font-bold text-lg">HOPE SPECIALIST</span>
-                  <span className="text-[#0EA5E9] text-sm block">CLINIC & RETINAL CENTER</span>
+                  <span className="text-[#0EA5E9] text-sm block">CLINIC & RETINA CENTER</span>
                 </div>
               </div>
               <p className="text-gray-400 text-sm">
