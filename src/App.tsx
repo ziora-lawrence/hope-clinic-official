@@ -331,7 +331,7 @@ function App() {
               <Eye className="w-6 h-6 lg:w-8 lg:h-8 text-[#0EA5E9]" />
               <div className="flex flex-col">
                 <span className="font-bold text-[#0F172A] text-sm lg:text-base leading-tight">HOPE SPECIALIST</span>
-                <span className="text-[#0EA5E9] text-xs lg:text-sm leading-tight">EYE CLINIC & RETINAL CENTER</span>
+                <span className="text-[#0EA5E9] text-xs lg:text-sm leading-tight">EYE CLINIC & RETINA CENTER</span>
               </div>
             </div>
 
@@ -681,7 +681,7 @@ function App() {
                     <p className="text-[#475569]">
                       <strong>Days:</strong> Monday to Saturday: 9am to 3pm<br />
                       <strong>Consultation Days:</strong>< br /> Tuesdays: 12pm to 3pm<br /> and Saturdays: 10am to 3pm<br />
-                      <strong>PLEASE NOTE!</strong> No Consultation on public holidays
+                      <strong>PLEASE NOTE!</strong> No Consultation on ALL public holidays
                     </p>
                   </div>
                 </div>
