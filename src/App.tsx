@@ -454,6 +454,10 @@ function App() {
               '/layout4.png',
               '/layout5.png',
               '/layout6.png',
+              'gallery 1.jpeg',
+              'gallery2.jpeg',
+              'gallery3.jpeg',
+              'gallery4.jpeg',
             ].map((img, index) => (
               <div key={index} className="gallery-item relative aspect-[4/3] rounded-xl overflow-hidden group">
                 <img 
