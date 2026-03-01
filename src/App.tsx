@@ -847,7 +847,7 @@ function App() {
                 <Eye className="w-8 h-8 text-[#0EA5E9]" />
                 <div>
                   <span className="font-bold text-lg">HOPE SPECIALIST</span>
-                  <span className="text-[#0EA5E9] text-sm block">CLINIC & RETINA CENTER</span>
+                  <span className="text-[#0EA5E9] text-sm block">EYE CLINIC & RETINA CENTER</span>
                 </div>
               </div>
               <p className="text-gray-400 text-sm">
